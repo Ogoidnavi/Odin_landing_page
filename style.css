@@ -1,7 +1,7 @@
 body{
+    border: 0px;
     padding: 0px;
     margin: 0px;
-    background-color: rgb(214, 249, 255);
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -31,6 +31,119 @@ body{
     height: 50px;
 }
 
+.hero{
+    display: flex;
+    padding: 48px;
+    align-items: stretch;
+    gap: 24px;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.hero_text{
+    max-width: 750px;
+}
+
+.body{
+    background-color: rgb(214, 221, 255);
+}
+
+.devil_fruits{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.devilfruit_info{
+    text-align: center;
+}
+
+.devilfruit_info img{
+    height: 300px;
+    width: 300px;
+    border-radius: 25px;
+    border: solid black 2px;
+}
+
+.pirates{
+    background-color: rgb(82, 111, 255);
+}
+
+.mugiwara{
+    padding: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 16px;
+}
+
+.mugiwara_info{
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mugiwara_info img{
+    height: 400px;
+    width: 300px;
+    border-radius: 25px;
+}
+
+.quotation_container{
+    padding: 16px;
+    background-color: rgb(0, 33, 124);
+}
+
+.quotation{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    width: 500px;
+    margin: auto;
+    padding: 8px;
+    background-color: rgb(0, 181, 253);
+    border-radius: 30px;
+}
+
+.quote{
+    font-style: italic;
+    font-family: Brush Script MT, cursive;
+}
+
+.author{
+    font-family: Georgia, Garamond, 'Times New Roman', Times, serif;
+    padding: 4px;
+}
+
+.sign_container{
+    padding: 20px;
+}
+
+.sign_up{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 600px;
+    margin: auto;
+    border-radius: 25px;
+    background-color: #3882F6;
+    padding: 12px 12px 24px 12px;
+}
+
+button{
+   border-radius: 20px;
+   background-color: #3882F6;
+   cursor: pointer;
+   color: white;
+   border: white solid 1px;
+}
+
+p{
+    font-size: large;
+}
+
 a{
     color:rgb(46, 46, 148);
     padding: 8px;
@@ -41,4 +154,20 @@ a{
 
 h1, h2{
     color:rgb(46, 46, 148);
+    text-align: center;
+    padding-top: 24px;
+}
+
+h1{
+    font-size: 36px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    border: 0px;
+    margin: 0px;
+    align-items: center;
 }
